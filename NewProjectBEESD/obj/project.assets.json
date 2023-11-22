@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\src-ESD\\git_TLBEESD_NewProject\\NewProjectBEESD\\NewProjectBEESD\\NewProjectBEESD\\NewProjectBEESD.csproj",
+      "projectUniqueName": "D:\\src-ESD\\git_TLBEESD_NewProject\\NewProjectBEESD\\NewProjectBEESD\\NewProjectBEESD.csproj",
       "projectName": "NewProjectBEESD",
-      "projectPath": "D:\\src-ESD\\git_TLBEESD_NewProject\\NewProjectBEESD\\NewProjectBEESD\\NewProjectBEESD\\NewProjectBEESD.csproj",
+      "projectPath": "D:\\src-ESD\\git_TLBEESD_NewProject\\NewProjectBEESD\\NewProjectBEESD\\NewProjectBEESD.csproj",
       "packagesPath": "C:\\Users\\Hieu\\.nuget\\packages\\",
-      "outputPath": "D:\\src-ESD\\git_TLBEESD_NewProject\\NewProjectBEESD\\NewProjectBEESD\\NewProjectBEESD\\obj\\",
+      "outputPath": "D:\\src-ESD\\git_TLBEESD_NewProject\\NewProjectBEESD\\NewProjectBEESD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
