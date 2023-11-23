@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace NewProjectBEESD.Controllers
+namespace NewProjectESDBETL.Controllers
 {
     [ApiController]
     [Route("[controller]")]
