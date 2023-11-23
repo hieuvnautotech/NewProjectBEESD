@@ -5,18 +5,18 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Linq;
-using ESD.DbAccess;
-using ESD.Extensions;
-using ESD.Hubs;
-using ESD.Middlewares;
-using ESD.Services.Common;
-using ESD.SubscribeTableDependencies;
+using NewProjectESDBETL.DbAccess;
+using NewProjectESDBETL.Extensions;
+using NewProjectESDBETL.Hubs;
+using NewProjectESDBETL.Middlewares;
+using NewProjectESDBETL.Services.Common;
+using NewProjectESDBETL.SubscribeTableDependencies;
 using Swashbuckle.AspNetCore.Filters;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Reflection;
 using System.Text;
-using Project1.Services;
+//using Project1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
