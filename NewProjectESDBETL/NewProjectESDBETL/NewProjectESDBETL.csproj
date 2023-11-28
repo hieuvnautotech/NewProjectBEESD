@@ -37,7 +37,6 @@
     <Folder Include="Hubs\" />
     <Folder Include="Middlewares\" />
     <Folder Include="SubcribeTableDependencies\" />
-    <Folder Include="Services\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

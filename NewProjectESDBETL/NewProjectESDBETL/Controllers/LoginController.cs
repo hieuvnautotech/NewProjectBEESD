@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
+using NewProjectESDBETL.Models.Dtos.Common;
 
 namespace NewProjectESDBETL.Controllers
 {
@@ -35,6 +36,20 @@ namespace NewProjectESDBETL.Controllers
             _memoryCache = memoryCache;
             _httpContextAccessor = httpContextAccessor;
             _userAuthorizationService = userAuthorizationService;
+        }
+
+        [HttpPost("checklogin")]
+        public async Task<IActionResult> Login([FromBody] LoginModelDto loginModel) {
+            var result = await _login_Service.CheckLogin(loginModel);
+            var returnData = new ResponseModel<AuthorizationResponse>
+            {
+                HttpResponseMessage = result
+            };
+            switch (result) {
+                case StaticReturnValue.SUCCESS:
+                    var data = await _userService.GetByUserName(loginModel.userName);
+            }
+
         }
     }
 }
