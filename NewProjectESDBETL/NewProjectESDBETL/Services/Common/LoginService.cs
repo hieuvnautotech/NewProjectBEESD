@@ -29,6 +29,21 @@ namespace NewProjectESDBETL.Services.Common
             var data = await _sqlDataAccess.LoadDataUsingStoredProcedure<string>(proc, param);
             return data.FirstOrDefault() ?? string.Empty;
         }
+
+        public async Task<ResponseModel<IEnumerable<UserDto>?>> GetOnlineUsers() 
+        {
+            var returnData = new ResponseModel<IEnumerable<UserDto>?>();
+            string proc = "sysUsp_User_GetOnLineUsers";
+
+            var data = await _sqlDataAccess.LoadDataUsingStoredProcedure<UserDto>(proc);
+            returnData.Data = data;
+            if (!data.Any()) 
+            {
+                returnData.HttpResponseCode = 204;
+                returnData.ResponseMessage = StaticReturnValue.NO_DATA;
+            }
+            return returnData;
+        }
     }
 
     
