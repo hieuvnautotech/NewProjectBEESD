@@ -1,5 +1,8 @@
 ﻿using Dapper;
+using NewProjectESDBETL.DbAccess;
+using NewProjectESDBETL.Extensions;
 using NewProjectESDBETL.Models.Dtos.Common;
+using static NewProjectESDBETL.Extensions.ServiceExtensions;
 
 namespace NewProjectESDBETL.Services.Common
 {

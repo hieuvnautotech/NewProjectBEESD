@@ -8,7 +8,7 @@ namespace NewProjectESDBETL.Models.Dtos.Common
         [Required]
         [StringLength(100, MinimumLength = 1)]
         [Unicode(false)]
-        public string? Username { get; set; }
+        public string? userName { get; set; }
 
 
         [Required]

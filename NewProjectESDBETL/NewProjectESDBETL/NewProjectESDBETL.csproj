@@ -32,7 +32,6 @@
 
   <ItemGroup>
     <Folder Include="CustomAttributes\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Helpers\" />
     <Folder Include="Hubs\" />
     <Folder Include="Middlewares\" />
