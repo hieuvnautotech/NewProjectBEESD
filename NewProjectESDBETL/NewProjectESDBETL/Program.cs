@@ -27,7 +27,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 ////Auto adding services to the container.
 builder.Services.RegisterServices(builder.Configuration);
-builder.Services.AddSingleton<IIotDBService, IotDbService>();
+//builder.Services.AddSingleton<IIotDBService, IotDbService>();
 
 
 builder.Services.AddCors(options =>

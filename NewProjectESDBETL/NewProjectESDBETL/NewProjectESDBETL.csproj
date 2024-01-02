@@ -32,9 +32,8 @@
 
   <ItemGroup>
     <Folder Include="CustomAttributes\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Hubs\" />
     <Folder Include="Middlewares\" />
+    <Folder Include="Services\KPI\" />
     <Folder Include="SubcribeTableDependencies\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
